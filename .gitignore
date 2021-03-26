@@ -1,0 +1,6 @@
+
+secret_keys.py
+custom_comments.py
+*.pyc
+sshkeys/*
+comments/*

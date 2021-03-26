@@ -1,0 +1,4 @@
+blacklist = [
+    'word',
+    'test'
+]
