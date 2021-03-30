@@ -8,6 +8,7 @@
  
 ## Automating the Process of Posting Comments
 1. Populate ```secret_keys.py``` with your paraphrase and reddit api details
+2. Create ```./comments``` and ```./karma_scores``` folders
 3. Set up cronjob to run ```s1_comment_scraper.py``` every x hours
 4. Set up cronjob to run ```s2_comment_poster.py``` every x hours
  
