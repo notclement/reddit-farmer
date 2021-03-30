@@ -16,19 +16,15 @@ PATH = './comments/'
 USED_PATH = './comments/used-comments.txt'
 
 # ======= global info for api (keys) =======
-# https://rapidapi.com/smodin/api/rewriter-paraphraser-text-changer-multi-language/endpoints
 API_URL = "https://rewriter-paraphraser-text-changer-multi-language.p.rapidapi.com/rewrite"
 API_HEADER_HOST = 'x-rapidapi-host'
 API_ENDP = 'rewriter-paraphraser-text-changer-multi-language.p.rapidapi.com'
-API_HEADER_APIKEY = 'x-rapidapi-key'  # put api value here
+API_HEADER_APIKEY = 'x-rapidapi-key'
 API_BODY_LANG_K = 'language'
 API_BODY_STRENGTH_K = 'strength'
 API_BODY_COMMENT_K = 'text'
-# api prepopulate info (value)
 API_BODY_LANG_V = 'en'
 API_BODY_STRENGTH_V = 3
-
-
 # ==========================================
 
 
@@ -69,11 +65,11 @@ def post_rand_comment(obj, counter=0):
             # randomly rephrase or not
             if random.randint(0, 0):
                 # this is live, dont anyhow spam this
-                # obj.reply(replace_words(comment))
+                obj.reply(replace_words(comment))
                 print('Posted without paraphrase.')
             else:
                 # this is live, dont anyhow spam this
-                # obj.reply(replace_words(rephrased_comment))
+                obj.reply(replace_words(rephrased_comment))
                 print('Posted with paraphrase.')
 
             append_used_comment_to_file(comment)
