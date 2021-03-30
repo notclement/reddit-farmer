@@ -1,6 +1,6 @@
 
-secret_keys.py
-custom_comments.py
 *.pyc
+secret_keys.py
 sshkeys/*
 comments/*
+karma_scores/*
