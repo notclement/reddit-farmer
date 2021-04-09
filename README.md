@@ -34,4 +34,6 @@ YOU SHOULD NOT BOT THE COMMENTS AS IT DEFEATS THE PURPOSE OF A COMMUNITY DRIVEN 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+The version that generates comments that are indistinguishable from normal comment will not be released.
+
 Want to collaborate? Let's get in touch.
